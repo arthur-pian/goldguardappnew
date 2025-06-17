@@ -74,55 +74,6 @@ GoldGuardNovoApp/
 ├── package-lock.json
 └── README.md
 ```
-
----
-
-### 🧱 Passos
-
-1. **Feche tudo:** terminais, Expo Go, editores (VS Code, etc.)
-2. **Navegue até o projeto existente ou crie um novo:**
-   ```bash
-   cd C:\Users\arthur\Desktop\projetos
-   npx create-expo-app GoldGuardNovoApp --template blank
-   cd GoldGuardNovoApp
-   ```
-3. **Substitua o `package.json`:**  
-   Apague o conteúdo atual e cole o bloco abaixo (em **📦 Dependências**).
-4. **Limpeza e reinstalação (crítico):**
-   ```bash
-   npx expo start -c
-   npm cache clean --force
-   rmdir /s /q node_modules
-   del package-lock.json
-   npm install
-   ```
-   Caso necessário:
-   ```bash
-   npm install --force
-   ```
-
-5. **Copie os arquivos de código:**
-
-   - `App.js`
-   - `AuthContext.js`
-   - `storageService.js`
-   - `LoginScreen.js`
-   - `RegisterScreen.js`
-   - `SummaryScreen.js`
-   - `OperationsScreen.js`
-   - `EducationalMessagesScreen.js`
-
-6. **Inicie o servidor Expo:**
-   ```bash
-   npx expo start
-   ```
-
-7. **Abra no celular ou emulador:**
-   - Use o **Expo Go**
-   - Escaneie o QR code exibido
-
----
-
 ## 📦 **Dependências e Versões Usadas**
 
 ```json
